@@ -1,0 +1,1 @@
+document.getElementById("legendVersion").innerHTML = "V1.0 Repo Inicializado";
