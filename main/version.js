@@ -1,1 +1,1 @@
-document.getElementById("legendVersion").innerHTML = "V1.0 Repo Inicializado";
+document.getElementById("legendVersion").innerHTML = "V2.0 Lectura APIs";
