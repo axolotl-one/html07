@@ -1,1 +1,1 @@
-document.getElementById("legendVersion").innerHTML = "V2.0 Lectura APIs";
+document.getElementById("legendVersion").innerHTML = "V3.0 Callbacks y lectura de JSON";
