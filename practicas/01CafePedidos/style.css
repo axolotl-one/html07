@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+code{
+    display: block;
+}
+
+nav{
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+    color: #eeeeee;
+    background: linear-gradient(to bottom, #122C60, #108075);
+}
+
+main{
+    display: flex;
+    width: 100%;
+    background: linear-gradient(to right, #2A7B9B, #57c785);
+}
+
+footer{
+    background-color: yellow;
+    text-align: center;
+    padding: 5px 0px;
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-weight: 300;
+}
+
+main button{
+    font-family: "DM Mono", monospace;
+    font-weight: 500;
+    font-style: italic;
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: 2px solid #108075;
+}
+
+#menuOpciones{
+    background: linear-gradient(to bottom,#2A9090 5%, #122F65 100%);
+    display: flex;
+    padding: 10px 15px;
+    height: auto;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    color: #eee;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+#regOrdenes{
+    padding: 10px 15px;
+    margin: 10px;
+    width: 70%;
+    background-image: radial-gradient(circle, #eee, #ccc, #aaa);
+    border-radius: 15px;
+}
+
+.dm-mono-medium {
+  font-family: "DM Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.dm-mono-medium-italic {
+  font-family: "DM Mono", monospace;
+  font-weight: 500;
+  font-style: italic;
+}

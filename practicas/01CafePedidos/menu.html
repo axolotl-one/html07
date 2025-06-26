@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Simulador Pedidos</title>
+    <script src="./pedidos.js"></script>
+</head>
+<body>
+    <nav>
+        <header>
+            <h1 class="dm-mono-medium">Cafetería Mochihua</h1>
+            <h3 class="dm-mono-medium-italic">Tepotzontenco</h1>
+        </header>
+        <main>
+            <section id="menuOpciones">
+                <h3 class="dm-mono-medium-italic">Ordena Aquí:</h3>
+                <button onclick="prepararOrden(`EXPRESO`,2000)">Expreso</button>
+                <button onclick="prepararOrden(`CAPUCHINO`,5000)">Capuchino</button>
+                <button onclick="prepararOrden(`FRAPPE`,7000)">Frappe</button>
+                <button onclick="prepararOrden(`LATTE`,3000)">Latte</button>
+                <button onclick="prepararCombo(`COMBO 1x4`)">Combo</button>
+            </section>
+            <section id="regOrdenes">
+
+            </section>
+        </main>
+        <footer>
+            <h5 id="legendVersion"></h5>
+        </footer>
+    </nav>
+    <script src="../../main/version.js"></script>
+</body>
+</html>

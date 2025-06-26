@@ -1,1 +1,1 @@
-document.getElementById("legendVersion").innerHTML = "V3.0 Callbacks y lectura de JSON";
+document.getElementById("legendVersion").innerHTML = "V4.0 Simulador Cafetería";
