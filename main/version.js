@@ -1,1 +1,1 @@
-document.getElementById("legendVersion").innerHTML = "V4.0 Simulador Cafetería";
+document.getElementById("legendVersion").innerHTML = "V5.0 Simulador Biblioteca";
