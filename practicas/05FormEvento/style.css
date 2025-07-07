@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+code{
+    display: block;
+}
+
+nav{
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+    color: #eeeeee;
+    background: linear-gradient(to bottom, #122C60, #108075);
+    font-family: "DM Mono", monospace;
+    font-weight: 500;
+    font-style: italic;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    background: radial-gradient(#57c785, #103570);
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: yellow;
+    text-align: center;
+    padding: 5px 0px;
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-weight: 300;
+}
+
+fieldset{
+    background-color: #10357040;
+    border-radius: 20px;
+    width: 40%;
+    height: 80%;
+    color: whitesmoke
+}
+
+input{
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin: 2% 5%;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+label{
+    display: block;
+}
+
+.option{
+    display: inline-block;
+}
+
+.option input, .option label{
+    display: inline;
+}
+
+#menuContent h1{
+    text-align: center;
+    font-family: "DM Mono", monospace;
+}
+
+#mensajeError{
+    text-align: center;
+    font-size: 20px;
+    color: #701010;
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 1000px) {
+    fieldset{
+        width: 80%;
+    }
+}

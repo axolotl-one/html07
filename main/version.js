@@ -1,1 +1,1 @@
-document.getElementById("legendVersion").innerHTML = "V6.0 Simulador App de Reservas";
+document.getElementById("legendVersion").innerHTML = "V7.0 Simulador Registro de Eventos";

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Registro</title>
+</head>
+<body>
+    <nav>
+        <header>
+            <h1>Taller Hacks de Álgebra</h1>
+        </header>
+        <main>
+            <fieldset id="menuContent">
+                <legend>Registro al evento</legend>
+                <form action="" id="formRegistro">
+                    <input type="text" name="usuario" id="inputUsuario" placeholder="Ingresa tu nombre" required autocomplete="off">
+                    <input type="email" name="email" id="inputEmail" placeholder="Ingresa tu correo electronico" required autocomplete="off">
+                    <input type="tel" name="telefono" id="inputTelefono" placeholder="Número telefonico" required autocomplete="off" minlength="10" maxlength="10">     
+                    <input type="date" name="fecha" id="inputFecha" required>
+                    <label>Selecciona el Horario:</label>
+                    <div class="option"><label for="matutino">Matutino</label><input type="radio" name="horario" id="matutino" value="Matutino"></div>
+                    <div class="option"><label for="nocturno">Nocturno</label><input type="radio" name="horario" id="nocturno" value="Nocturno"></div>
+                    <div class="option"><label for="completo">Completo</label><input type="radio" name="horario" id="completo" value="Completo"></div>
+                    <div class="option"><label for="trnmixto">Mixto</label><input type="radio" name="horario" id="trnmixto" value="Mixto"></div>
+                    <label for="inputFile">Anexa la credecial con el numero de matricula</label>
+                    <input type="file" id="inputFile" accept=".jpg,.png" required>
+                    <p id="mensajeError"></p>
+                    <input type="submit" name="submit">
+                </form>
+            </fieldset>
+        </main>
+        <footer>
+            <h5 id="legendVersion"></h5>
+        </footer>
+    </nav>
+    <script src="../../main/version.js"></script>
+    <script src="./registro.js"></script>
+</body>
+</html>
